@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "769624404825",
+    "firebase_url": "https://cmps-121-polling.firebaseio.com",
+    "project_id": "cmps-121-polling",
+    "storage_bucket": "cmps-121-polling.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769624404825:android:a09e38a49b59ceb2",
+        "android_client_info": {
+          "package_name": "com.example.sadistickamikaze.polling_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769624404825-1gdueto2oridg7f9r268u262ocv7ep42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0_AJthXBrX4aDgHGEAvM721eitXjn9wU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+
+    tools:context="com.example.sadistickamikaze.polling_app.CreatePoll">
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="498dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/pollquestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Poll Question: "
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.136"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.183" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/question"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                app:layout_constraintBottom_toBottomOf="@+id/CreatePollButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.673"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.189" />
+
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/optionnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Number of Poll Options: "
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.136"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.183" />
+
+            <Spinner
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/spinner"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/ddoption1"
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Option 1"
+                android:visibility="gone"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/ddoption2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Option 2"
+                android:visibility="gone"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/ddoption3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Option 3"
+                android:visibility="gone"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/ddoption4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Option 4"
+                android:visibility="gone"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/ddoption5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Option 5"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/ddoption6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Option 6"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/ddoption7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Option 7"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/ddoption8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Option 8"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/ddoption9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Option 9"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/ddoption10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Option 10"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <TextView
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Password:"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.136"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.404" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:id="@+id/option1answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#ffffff"
+                app:layout_constraintBottom_toBottomOf="@+id/CreatePollButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.673"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.418" />
+
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Deletion Password:"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.136"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.635" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:id="@+id/option2answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#ffffff"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/CreatePollButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.673"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.657" />
+
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/distancetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Distance:"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.136"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.635" />
+
+            <EditText
+                android:backgroundTint="@android:color/white"
+                android:textColor="#ffffff"
+                android:id="@+id/distanceanswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="number"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/CreatePollButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.673"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.657" />
+
+            <Button
+                android:id="@+id/CreatePollButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:onClick="createPoll"
+                android:background="@drawable/applybutton"
+                android:textColor="#ffffff"
+                android:text="Create Poll"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.982" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
